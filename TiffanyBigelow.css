@@ -1,0 +1,122 @@
+/* Colors
+dark grey: #40515E;
+grey: #B8C9D1;
+light grey: #F2F2F4;
+green: #119DA4;
+light green: #5BC0BE;
+blue: #22AED1;
+white: #F2F2F4;
+*/
+
+
+/*Every page standard CSS*/
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F4;
+  font-family: 'Share Tech Mono', monospace;
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding:0;
+}
+h1.main {
+  color: #40515E;
+  text-align: center;
+  font-size: 38pt;
+  line-height: 150px;
+}
+h2 {
+  font-size: 17pt;
+  color: #22AED1;
+}
+h3 {
+  font-size: 14pt;
+  color: #22AED1;
+}
+a {
+  color: #5BC0BE;
+}
+a:hover {
+  color: #119DA4;
+}
+ul,li {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+}
+nav {
+  background-color: #40515E;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  padding: 0 1%;
+  color: #F2F2F4;
+}
+.headerWrap {
+  background-image: url("../About Me Website/federica-galli-449563.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  width: 100%;
+  height: 400px;
+}
+/*End Standard*/
+
+
+/*Home page css*/
+.profile {
+  padding: 20px;
+  margin: 15% 10%;
+  border: solid #B8C9D1 1px;
+}
+table {
+  color: #BA2C73;
+}
+.hobbies {
+  padding: 0 10%;
+}
+.icon {
+  padding: 3%;
+  width: 25%;
+}
+/*End Home*/
+
+
+/*Examples*/
+.frameSite {
+  display: block;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+.frameWrap {
+  margin: 15% 10%;
+  padding: 20px;
+}
+/*End Examples*/
+
+
+/*Contact*/
+.form {
+  padding: 20px;
+  margin: 15% 10%;
+  border: solid #B8C9D1 1px;
+  line-height: 30px;
+}
+label {
+  color: #40515E;
+}
+input, textarea {
+  width: 100%;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #40515E;
+  color: #5BC0BE;
+}
+/*End Contact*/
